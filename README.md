@@ -26,5 +26,8 @@ Hardware resources
     http://sg.element14.com/bourns/pwr2615w1r00f/res-wirewound-1r-1-1w-2615/dp/2328304</li>
   
   <li>Battery
-    http://sg.element14.com/ansmann/5015332/battery-lr41/dp/1662683?ost=1.5v+batteries&selectedCategoryId=&categoryId=800000000384</li>
+    <ul>
+    <li>http://sg.element14.com/ansmann/5015332/battery-lr41/dp/1662683?ost=1.5v+batteries&selectedCategoryId=&categoryId=800000000384</li>
+    <li>http://sg.element14.com/keystone/2988/battery-contact-7-9mm-hear-aid/dp/1887934?ost=button+cell+holder+7.9mm&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories</li>
+  </ul>
   </ul>
