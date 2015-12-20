@@ -26,7 +26,7 @@ Hardware resources
   <li>LED X1 each
     <ul>
     <li>http://sg.element14.com/lumex/ssl-lx5093usbc-g/led-blue-15cd-465nm-thd/dp/2494063</li>
-    <li>http://sg.element14.com/avago-technologies/hlmp-cm1a-450dd/led-5mm-ingan-green-15deg/dp/1814429</li>
+    <li>http://sg.element14.com/lumex/ssl-lx5093upgc-g/led-green-40cd-520nm-thd/dp/2494062</li>
     <li>http://sg.element14.com/vishay-semiconductor/tlcr5800/led-red-t-1-3-4-5mm-35cd-616nm/dp/4774681</li></ul></li>
 
   <li>Resistor X3 each
