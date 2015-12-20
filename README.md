@@ -1,6 +1,8 @@
 # Raspberry-Pi-basic-Optical-Data-Transfer
 Programs for Data transfer using LDRs, Transistors and LEDs.
 
+<h2>All builds go in the builds folder</h2>
+
 Refferences
   <ul>
   <li>C++ GPIO
