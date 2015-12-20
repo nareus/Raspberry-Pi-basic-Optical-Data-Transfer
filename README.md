@@ -25,9 +25,9 @@ Hardware resources
 
   <li>LED X1 each
     <ul>
-    <li>http://sg.element14.com/avago-technologies/hlmp-d150/led-5mm-red-3mcd-637nm/dp/1003231</li>
-    <li>http://sg.element14.com/avago-technologies/hlmp-cm3a-z10dd/led-5mm-ingan-green-30deg/dp/1814433</li>
-    <li>http://sg.element14.com/avago-technologies/hlmp-ka45-e0000/led-3mm-blue-85mcd-470nm/dp/1863182</li></ul></li>
+    <li>http://sg.element14.com/lumex/ssl-lx5093usbc-g/led-blue-15cd-465nm-thd/dp/2494063</li>
+    <li>http://sg.element14.com/avago-technologies/hlmp-cm1a-450dd/led-5mm-ingan-green-15deg/dp/1814429</li>
+    <li>http://sg.element14.com/vishay-semiconductor/tlcr5800/led-red-t-1-3-4-5mm-35cd-616nm/dp/4774681</li></ul></li>
 
   <li>Resistor X3 each
     <ul><li>http://sg.element14.com/bourns/3296y-1-201lf/trimmer-25-turn-200r/dp/9353569</li>
