@@ -27,7 +27,7 @@ Hardware resources
 
   <li>Resistor
     <ul><li>http://sg.element14.com/vishay-dale/rs02br5000fe12/wirewound-resistor-0-5-ohm-3w/dp/1167377</li>
-    <li>http://sg.element14.com/eti-systems/mw22b-10-200/wirewound-potentiometer-200-ohm/dp/9114041</li></ul></li>
+    <li>http://sg.element14.com/bourns/3296y-1-201lf/trimmer-25-turn-200r/dp/9353569</li></ul></li>
   
   <li>Battery
     <ul>
