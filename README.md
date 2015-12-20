@@ -26,7 +26,8 @@ Hardware resources
     <li>http://sg.element14.com/apem/q6r1cxxr12e/led-indicator-panel-6mm-red-12vdc/dp/2494715?MER=MER-BPR-4PPM-PD-NEW-GEN&</li></ul></li>
 
   <li>Resistor
-    <ul><li>http://sg.element14.com/bourns/pwr2615w1r00f/res-wirewound-1r-1-1w-2615/dp/2328304</ul></li></li>
+    <ul><li>http://sg.element14.com/vishay-dale/rs02br5000fe12/wirewound-resistor-0-5-ohm-3w/dp/1167377</li>
+    <li>http://sg.element14.com/eti-systems/mw22b-10-200/wirewound-potentiometer-200-ohm/dp/9114041</li></ul></li>
   
   <li>Battery
     <ul>
