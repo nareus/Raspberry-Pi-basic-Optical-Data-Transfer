@@ -39,3 +39,5 @@ Hardware resources
     <li>http://sg.element14.com/keystone/2988/battery-contact-7-9mm-hear-aid/dp/1887934?ost=button+cell+holder+7.9mm&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories</li>
   </ul>
   </ul>
+
+78 bucks on element 14
