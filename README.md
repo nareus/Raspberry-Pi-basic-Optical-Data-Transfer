@@ -10,9 +10,9 @@ Refferences
   </ul>
 Hardware resources
   <ul>
-  <li>Transistor
+  <li>Switch
   <ul>
-    <li>http://sg.element14.com/on-semiconductor/p2n2222ag/transistor-npn-40v-to-92/dp/1611371?MER=MER-BPR-4PPM-PD-ONSE-SMD&</li></ul></li>
+    <li>http://sg.element14.com/multicomp/p8us8wr2c2m6res/switch-push-button-r-a-spdt-on/dp/1550267</li></ul></li>
 
   <li>LDR
     <ul>
