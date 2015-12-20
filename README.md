@@ -18,7 +18,7 @@ Hardware resources
     <li>http://sg.element14.com/multicomp/p8us8wr2c2m6res/switch-push-button-r-a-spdt-on/dp/1550267  X4</li>
     <li>http://sg.element14.com/nkk-switches/m2012ss1w01/toggle-switch-spdt-vert-on-on/dp/1357681 X3</li></ul></li>
 
-  <li>LDR X1
+  <li>LDR X3
     <ul>
     </li>http://sg.element14.com/excelitas-tech/vt90n1/ldr-200kohm-80mw-vt900-series/dp/2568243</li></ul>
     </li>
