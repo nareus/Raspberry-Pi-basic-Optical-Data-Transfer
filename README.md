@@ -11,10 +11,13 @@ Refferences
 Hardware resources
   <ul>
   <li>Transistor
-    http://sg.element14.com/on-semiconductor/p2n2222ag/transistor-npn-40v-to-92/dp/1611371?MER=MER-BPR-4PPM-PD-ONSE-SMD&</li>
+  <ul>
+    <li>http://sg.element14.com/on-semiconductor/p2n2222ag/transistor-npn-40v-to-92/dp/1611371?MER=MER-BPR-4PPM-PD-ONSE-SMD&</li></ul></li>
 
   <li>LDR
-    http://sg.element14.com/excelitas-tech/vt90n1/ldr-200kohm-80mw-vt900-series/dp/2568243</li>
+    <ul>
+    </li>http://sg.element14.com/excelitas-tech/vt90n1/ldr-200kohm-80mw-vt900-series/dp/2568243</li></ul>
+    </li>
 
   <li>LED
     <ul>
@@ -23,7 +26,7 @@ Hardware resources
     <li>http://sg.element14.com/apem/q6r1cxxr12e/led-indicator-panel-6mm-red-12vdc/dp/2494715?MER=MER-BPR-4PPM-PD-NEW-GEN&</li></ul></li>
 
   <li>Resistor
-    http://sg.element14.com/bourns/pwr2615w1r00f/res-wirewound-1r-1-1w-2615/dp/2328304</li>
+    <ul><li>http://sg.element14.com/bourns/pwr2615w1r00f/res-wirewound-1r-1-1w-2615/dp/2328304</ul></li></li>
   
   <li>Battery
     <ul>
