@@ -33,7 +33,7 @@ Hardware resources
     <ul><li>http://sg.element14.com/bourns/3296y-1-201lf/trimmer-25-turn-200r/dp/9353569</li>
     <li>http://sg.element14.com/vishay-dale/wsr2r8000fek/current-sense-resistor-0-8-ohm/dp/1155472</li></ul></li>
   
-  <li>Battery X3 
+  <li>Battery X3 each
     <ul>
     <li>http://sg.element14.com/ansmann/5015332/battery-lr41/dp/1662683?ost=1.5v+batteries&selectedCategoryId=&categoryId=800000000384</li>
     <li>http://sg.element14.com/keystone/2988/battery-contact-7-9mm-hear-aid/dp/1887934?ost=button+cell+holder+7.9mm&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories</li>
