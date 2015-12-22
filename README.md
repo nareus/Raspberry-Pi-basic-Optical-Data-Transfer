@@ -41,3 +41,7 @@ Hardware resources
   </ul>
 
 ~78 bucks on element 14
+
+
+<h3>Circuit Diagram</h3>
+https://cloud.githubusercontent.com/assets/8620827/11948246/b38993e8-a8ac-11e5-9feb-08af0c0e1939.jpg
