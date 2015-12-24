@@ -8,8 +8,6 @@ Refferences
   <ul>
   <li>C++ GPIO
     <ul><li>http://www.hertaville.com/introduction-to-accessing-the-raspberry-pis-gpio-in-c.html </li></ul></li>
-  <li>Transistor as a switch
-    <ul><li> http://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/transistor-switch-bjt/ </li></ul></li>
   </ul>
 Hardware resources
   <ul>
