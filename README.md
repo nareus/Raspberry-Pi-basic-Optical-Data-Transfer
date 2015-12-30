@@ -8,6 +8,9 @@ Refferences
   <ul>
   <li>C++ GPIO
     <ul><li>http://www.hertaville.com/introduction-to-accessing-the-raspberry-pis-gpio-in-c.html </li></ul></li>
+    
+  <li> Time delay in the mcqs 
+    <ul><li>http://www.tutorialspoint.com/cplusplus/cpp_multithreading.htmhttp://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm</li></ul>
   </ul>
 Hardware resources
   <ul>
