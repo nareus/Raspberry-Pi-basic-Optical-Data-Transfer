@@ -14,7 +14,8 @@ string B="0";
 string C="0";
 int x=0;
 int y=0;
-int c=1;
+string correctchoice="A";
+int Q=1;
 GPIOClass* gpio4 = new GPIOClass("4");
 GPIOClass* gpio17 = new GPIOClass("17");
 GPIOClass* gpio27 = new GPIOClass("27");
@@ -50,5 +51,16 @@ while(1)
 	{
     choice="C";
 	}
+switch (Q);
+	cout << "A wave that consists of two perpendicular transverse waves with one component of the wave being a vibrating electric field and the other being a corresponding magnetic field is called a?" <<"\n";
+	cout << "A. induction wave." << "\n";
+	cout << "B. sound wave." << "\n";
+	cout << "C. electromagnetic wave." << "\n";
+	correctchoice="C";
+	if (Q == correctchoice) {
+		cout << "correct choice" <<"\n";
+	}
+	else cout << "wrong choice the answer was C." << "\n";
+	Q = Q + 1;
 }
 }
