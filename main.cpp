@@ -25,20 +25,40 @@ gpio17->export_gpio();
 gpio27->export_gpio();
 
 cout << " GPIO pins exported" << endl;
-
-
+for (Q; Q<11; Q++)
+{
 gpio4->setdir_gpio("in");
 gpio17->setdir_gpio("in");
 gpio27->setdir_gpio("in");
 cout << " Set GPIO pin directions" << endl;
 
-while(1)
+
+    
+switch (Q)
 {
-    gpio4->getval_gpio(A);
+	case 1:
+	
+	cout << "A wave that consists of two perpendicular transverse waves with one component of the wave being a vibrating electric field and the other being a corresponding magnetic field is called a?" <<"\n";
+	cout << "A. induction wave." << "\n";
+	cout << "B. sound wave." << "\n";
+	cout << "C. electromagnetic wave." << "\n";
+	correctchoice="C";
+	break;
+	
+	case 2:
+	
+	cout << "What type of waves are used to transmit cellular telephone messages?" <<"\n";
+	cout << "A. Gamma Rays." << "\n";
+	cout << "B. Microwaves." << "\n";
+	cout << "C. Radio waves." << "\n";
+	correctchoice="A";
+	break;
+	
+}
+gpio4->getval_gpio(A);
     gpio17->getval_gpio(B);
     gpio27->getval_gpio(C);
     string choice= "0";
-    
     if (A == "1") 
 	{
     choice="A" ;
@@ -51,16 +71,13 @@ while(1)
 	{
     choice="C";
 	}
-switch (Q);
-	cout << "A wave that consists of two perpendicular transverse waves with one component of the wave being a vibrating electric field and the other being a corresponding magnetic field is called a?" <<"\n";
-	cout << "A. induction wave." << "\n";
-	cout << "B. sound wave." << "\n";
-	cout << "C. electromagnetic wave." << "\n";
-	correctchoice="C";
-	if (Q == correctchoice) {
+    if (choice == correctchoice) {
 		cout << "correct choice" <<"\n";
 	}
-	else cout << "wrong choice the answer was C." << "\n";
-	Q = Q + 1;
+	else cout << "wrong choice" << "\n";
+
+}	
 }
-}
+
+
+
