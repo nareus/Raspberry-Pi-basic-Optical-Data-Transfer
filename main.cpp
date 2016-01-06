@@ -82,6 +82,7 @@ switch (Q)
 	cout << "B. particle." << "\n";
 	cout << "C. photoelectric." << "\n";
 	correctchoice="A";
+	break;
 	
 	case 4:
 	
@@ -90,6 +91,7 @@ switch (Q)
 	cout << "B. sound waves." << "\n";
 	cout << "C. radio waves." << "\n";
 	correctchoice="C";
+	break;
 	
 	case 5:	
 	cout << "The study of the measurement of light is called?" <<"\n";
@@ -97,6 +99,7 @@ switch (Q)
 	cout << "B. photometry." << "\n";
 	cout << "C. photography." << "\n";
 	correctchoice="B";
+	break;
 	
 	
 	case 6:
@@ -105,15 +108,16 @@ switch (Q)
 	cout << "B. Gamma rays." << "\n";
 	cout << "C. Ultraviolet rays." << "\n";
 	correctchoice="B";
+	break;
 	
 }
 
-	}
+	
     	if (correctchoice == Choice()) {
 	cout << "Correct Answer" <<"\n";
 	}
 	else cout << "Wrong answer" << correctchoice << "\n"; 
-
+}
 }	
 
 
