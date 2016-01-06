@@ -7,6 +7,25 @@
 
 using namespace::std;
 
+string Choice () {
+	gpio4->getval_gpio(A);
+	gpio17->getval_gpio(B);
+	gpio27->getval_gpio(C);
+    string choice= "0";
+    if (A == "1") 
+	{
+    choice="A" ;
+	}
+    else if (B == "1") 
+	{
+    choice="B";
+	}
+    else if (C == "1") 
+	{
+    choice="C";
+    return choice
+}
+
 int main() {
 
 string A="0";
@@ -25,13 +44,14 @@ gpio17->export_gpio();
 gpio27->export_gpio();
 
 cout << " GPIO pins exported" << endl;
-for (Q; Q<11; Q++)
-{
+
 gpio4->setdir_gpio("in");
 gpio17->setdir_gpio("in");
 gpio27->setdir_gpio("in");
 cout << " Set GPIO pin directions" << endl;
 
+for (Q; Q<11; Q++)
+{
 
     
 switch (Q)
@@ -55,26 +75,12 @@ switch (Q)
 	break;
 	
 }
-gpio4->getval_gpio(A);
-    gpio17->getval_gpio(B);
-    gpio27->getval_gpio(C);
-    string choice= "0";
-    if (A == "1") 
-	{
-    choice="A" ;
+
 	}
-    else if (B == "1") 
-	{
-    choice="B";
+    	if (correctchoice == Choice()) {
+	cout << "Corect Answer" <<"\n";
 	}
-    else if (C == "1") 
-	{
-    choice="C";
-	}
-    if (choice == correctchoice) {
-		cout << "correct choice" <<"\n";
-	}
-	else cout << "wrong choice" << "\n";
+	else cout << "Wrong answer, answer is " << correctchoice << "\n"; 
 
 }	
 }
