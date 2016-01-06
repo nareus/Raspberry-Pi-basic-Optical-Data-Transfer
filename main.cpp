@@ -25,6 +25,7 @@ string Choice () {
     choice="C";
     return choice
 }
+}
 
 int main() {
 
@@ -74,16 +75,47 @@ switch (Q)
 	correctchoice="A";
 	break;
 	
+	case 3:
+	
+	cout << "Christian Huygens proposed the _____ theory of light, where light travels out from light sources." <<"\n";
+	cout << "A. wave." << "\n";
+	cout << "B. particle." << "\n";
+	cout << "C. photoelectric." << "\n";
+	correctchoice="A";
+	
+	case 4:
+	
+	cout << "The following are electromagnetic waves except." <<"\n";
+	cout << "A. infrared waves." << "\n";
+	cout << "B. sound waves." << "\n";
+	cout << "C. radio waves." << "\n";
+	correctchoice="C";
+	
+	case 5:	
+	cout << "The study of the measurement of light is called?" <<"\n";
+	cout << "A. illumetry ." << "\n";
+	cout << "B. photometry." << "\n";
+	cout << "C. photography." << "\n";
+	correctchoice="B";
+	
+	
+	case 6:
+	cout << "Which electromagnetic waves have the shortest wavelengths and highest frequencies?" << "\n";
+	cout << "A. X rays" << "/n";
+	cout << "B. Gamma rays." << "\n";
+	cout << "C. Ultraviolet rays." << "\n";
+	correctchoice="B";
+	
 }
 
 	}
     	if (correctchoice == Choice()) {
-	cout << "Corect Answer" <<"\n";
+	cout << "Correct Answer" <<"\n";
 	}
-	else cout << "Wrong answer, answer is " << correctchoice << "\n"; 
+	else cout << "Wrong answer" << correctchoice << "\n"; 
 
 }	
-}
+
 
 
 
