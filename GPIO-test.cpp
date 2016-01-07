@@ -50,5 +50,6 @@ while(1)
 	{
     choice="C";
 	}
+	cout << choice;
 }
 }
