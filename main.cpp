@@ -166,6 +166,45 @@ switch (Q)
 	correctchoice="B";
 	break;
 	
+	
+	case 7:
+	cout << " Electromagnetic spectrum comprises of?" << "\n";
+	cout << "A. Sound waves" << "/n";
+	cout << "B. Longitudinal waves." << "\n";
+	cout << "C. Transverse waves." << "\n";
+	correctchoice="C";
+	break;
+	
+	
+	case 8:
+	cout << " Which of the following statements is true?" << "\n";
+	cout << "A.Gamma rays have shorter wavelengths than microwaves." << "/n";
+	cout << "B.Radio waves have shorter wavelengths than X-rays." << "\n";
+	cout << "C. Gamma rays have longer wavelengths than UV rays." << "\n";
+	correctchoice="A";
+	break;
+	
+	
+	case 9:
+	cout << " Which of the following is NOT in the visible light spectrum?" << "\n";
+	cout << "A.Red light" << "/n";
+	cout << "B. Ultraviolet light" << "\n";
+	cout << "C.Violet light" << "\n";
+	correctchoice="B";
+	break;
+	
+	
+	case 10:
+	cout << " Which of the following best defines the science of separating color wavelengths?" << "\n";
+	cout << "A.Spectroscopy" << "/n";
+	cout << "B. photo-chemistry" << "\n";
+	cout << "C.spectrophotometry" << "\n";
+	correctchoice="A";
+	break;
+	
+	
+	
+	
 }
 
 	
