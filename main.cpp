@@ -107,9 +107,16 @@ switch (Q)
 	correctchoice="B";
 	break;
 	
+<<<<<<< HEAD
 	case 7:
 	cout << " Electromagnetic spectrum comprises of?" << "\n";
 	cout << "A. Sound waves" << \n";
+=======
+	
+	case 7:
+	cout << " Electromagnetic spectrum comprises of?" << "\n";
+	cout << "A. Sound waves" << "/n";
+>>>>>>> origin/master
 	cout << "B. Longitudinal waves." << "\n";
 	cout << "C. Transverse waves." << "\n";
 	correctchoice="C";
@@ -118,7 +125,11 @@ switch (Q)
 	
 	case 8:
 	cout << " Which of the following statements is true?" << "\n";
+<<<<<<< HEAD
 	cout << "A.Gamma rays have shorter wavelengths than microwaves." << "\n";
+=======
+	cout << "A.Gamma rays have shorter wavelengths than microwaves." << "/n";
+>>>>>>> origin/master
 	cout << "B.Radio waves have shorter wavelengths than X-rays." << "\n";
 	cout << "C. Gamma rays have longer wavelengths than UV rays." << "\n";
 	correctchoice="A";
@@ -127,7 +138,11 @@ switch (Q)
 	
 	case 9:
 	cout << " Which of the following is NOT in the visible light spectrum?" << "\n";
+<<<<<<< HEAD
 	cout << "A.Red light" << "\n";
+=======
+	cout << "A.Red light" << "/n";
+>>>>>>> origin/master
 	cout << "B. Ultraviolet light" << "\n";
 	cout << "C.Violet light" << "\n";
 	correctchoice="B";
@@ -136,11 +151,22 @@ switch (Q)
 	
 	case 10:
 	cout << " Which of the following best defines the science of separating color wavelengths?" << "\n";
+<<<<<<< HEAD
 	cout << "A.Spectroscopy" << "\n";
+=======
+	cout << "A.Spectroscopy" << "/n";
+>>>>>>> origin/master
 	cout << "B. photo-chemistry" << "\n";
 	cout << "C.spectrophotometry" << "\n";
 	correctchoice="A";
 	break;
+<<<<<<< HEAD
+=======
+	
+	
+	
+	
+>>>>>>> origin/master
 }
 	gpio4->getval_gpio(A);
     gpio17->getval_gpio(B);
