@@ -4,43 +4,22 @@
 #include <sstream>
 #include "GPIOClass.h"
 #include <string>
+#include <unistd.h>
 
 using namespace::std;
 
-string Choice() {
-	gpio4->getval_gpio(A);
-    gpio17->getval_gpio(B);
-    gpio27->getval_gpio(C);
-    string choice= "0";
-    
-    if (A == "1") 
-	{
-	usleep(50);
-	gpio4->getval_gpio(A);
-	if (A == "1") {
-		choice="A" ;
-		}
-	}
-    if (B == "1") 
-	{
-    usleep(50);
-	gpio17->getval_gpio(B);
-	if (B == "1") {
-		choice="B" ;
-		}
-	}
-    if (C == "1") 
-	{
-    usleep(50);
-	gpio27->getval_gpio(C);
-	if (C == "1") {
-		choice="C" ;
-		}
-	}
-	return choice
-}
-void export() {
-	GPIOClass* gpio4 = new GPIOClass("4");
+int main() {
+
+
+
+string A="0";
+string B="0";
+string C="0";
+int x=0;
+int y=0;
+string correctchoice="A";
+int Q=1;
+GPIOClass* gpio4 = new GPIOClass("4");
 GPIOClass* gpio17 = new GPIOClass("17");
 GPIOClass* gpio27 = new GPIOClass("27");
 GPIOClass* gpio14 = new GPIOClass("14");
@@ -68,44 +47,6 @@ cout << " Set GPIO pin directions" << endl;
 gpio14->setval_gpio("1");
 gpio15->setval_gpio("1");
 gpio18->setval_gpio("1");
-
-}
-void unexport() {
-	gpio4->unexport_gpio();
-	gpio17->unexport_gpio();
-	gpio27->unexport_gpio();
-	gpio14->unexport_gpio();
-	gpio15->unexport_gpio();
-	gpio18->unexport_gpio();
-
-	cout << "deallocating GPIO Objects" << endl;
-
-	delete gpio4;
-	gpio4 = 0;
-	delete gpio17;
-	gpio17 =0;
-	delete gpio27;
-	gpio27 =0;
-	delete gpio14;
-	gpio14 =0;
-	delete gpio15;
-	gpio15 =0;
-	delete gpio18;
-	gpio18 =0;
-}
-
-}
-
-int main() {
-
-string A="0";
-string B="0";
-string C="0";
-int x=0;
-int y=0;
-string correctchoice="A";
-int Q=1;
-export();
 
 for (Q; Q<11; Q++)
 {
@@ -160,21 +101,87 @@ switch (Q)
 	
 	case 6:
 	cout << "Which electromagnetic waves have the shortest wavelengths and highest frequencies?" << "\n";
-	cout << "A. X rays" << "/n";
+	cout << "A. X rays" << "\n";
 	cout << "B. Gamma rays." << "\n";
 	cout << "C. Ultraviolet rays." << "\n";
 	correctchoice="B";
 	break;
 	
-}
-
+	case 7:
+	cout << " Electromagnetic spectrum comprises of?" << "\n";
+	cout << "A. Sound waves" << \n";
+	cout << "B. Longitudinal waves." << "\n";
+	cout << "C. Transverse waves." << "\n";
+	correctchoice="C";
+	break;
 	
-    if (correctchoice == Choice()) {
+	
+	case 8:
+	cout << " Which of the following statements is true?" << "\n";
+	cout << "A.Gamma rays have shorter wavelengths than microwaves." << "\n";
+	cout << "B.Radio waves have shorter wavelengths than X-rays." << "\n";
+	cout << "C. Gamma rays have longer wavelengths than UV rays." << "\n";
+	correctchoice="A";
+	break;
+	
+	
+	case 9:
+	cout << " Which of the following is NOT in the visible light spectrum?" << "\n";
+	cout << "A.Red light" << "\n";
+	cout << "B. Ultraviolet light" << "\n";
+	cout << "C.Violet light" << "\n";
+	correctchoice="B";
+	break;
+	
+	
+	case 10:
+	cout << " Which of the following best defines the science of separating color wavelengths?" << "\n";
+	cout << "A.Spectroscopy" << "\n";
+	cout << "B. photo-chemistry" << "\n";
+	cout << "C.spectrophotometry" << "\n";
+	correctchoice="A";
+	break;
+}
+	gpio4->getval_gpio(A);
+    gpio17->getval_gpio(B);
+    gpio27->getval_gpio(C);
+    string choice= "0";
+sleep(10);
+    
+    if (A == "1") 
+	{
+	sleep(1);
+	gpio4->getval_gpio(A);
+	if (A == "1") {
+		choice="A" ;
+		}
+	}
+    if (B == "1") 
+	{
+    sleep(1);
+	gpio17->getval_gpio(B);
+	if (B == "1") {
+		choice="B" ;
+		}
+	}
+    if (C == "1") 
+	{
+    usleep(1);
+	gpio27->getval_gpio(C);
+	if (C == "1") {
+		choice="C" ;
+		}
+	}
+	
+    if (correctchoice == choice) {
 	cout << "Correct Answer" <<"\n";
 	}
 	else cout << "Wrong answer," << correctchoice << "\n"; 
 }
+
 }	
+
+
 
 
 

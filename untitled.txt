@@ -1,0 +1,25 @@
+void Unexport() {
+	gpio4->unexport_gpio();
+	gpio17->unexport_gpio();
+	gpio27->unexport_gpio();
+	gpio14->unexport_gpio();
+	gpio15->unexport_gpio();
+	gpio18->unexport_gpio();
+
+	cout << "deallocating GPIO Objects" << endl;
+
+	delete gpio4;
+	gpio4 = 0;
+	delete gpio17;
+	gpio17 =0;
+	delete gpio27;
+	gpio27 =0;
+	delete gpio14;
+	gpio14 =0;
+	delete gpio15;
+	gpio15 =0;
+	delete gpio18;
+	gpio18 =0;
+}
+
+Unexport();
