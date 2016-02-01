@@ -69,7 +69,7 @@ switch (Q)
 	cout << "A. Gamma Rays." << "\n";
 	cout << "B. Microwaves." << "\n";
 	cout << "C. Radio waves." << "\n";
-	correctchoice="A";
+	correctchoice="C";
 	break;
 	
 	case 3:
@@ -87,7 +87,7 @@ switch (Q)
 	cout << "A. infrared waves." << "\n";
 	cout << "B. sound waves." << "\n";
 	cout << "C. radio waves." << "\n";
-	correctchoice="C";
+	correctchoice="B";
 	break;
 	
 	case 5:	
